@@ -14,7 +14,7 @@ app.use(cors());
 app.use("/posts", postRoutes);
 
 const Connection_url =
-  "mongodb+srv://admin_anmol:admin@anmol@memories.htzem.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "mongodb+srv://admin_anmol:admin123@memories.htzem.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 const port = process.env.port || 5000;
 
